@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { margin-top: 5px; font-size: 10px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main-page">
+    <div class="flex-center-column container"> <!--Main container-->
+      <div class="order-summary"> <!--Component container-->
+        <div class="order-image">  <!--Presentation image section-->
+          <img class="order-image__img" src="./images/illustration-hero.svg" alt="" role="presentation">
+        </div>
+        <section class="flex-center-column order-text">  <!--Presentation text section-->
+          <h1 class="order-text__h1">Order Summary</h1>
+          <p class="order-text__p">You can now listen to millions of songs, audiobooks, and podcasts on any 
+            device anywhere you like!</p>
+        </section>
+        <div class="flex-center order-option">  <!--Plan change options section-->
+          <div class="order-container">
+            <div class="container-option">
+              <div class="flex-center container-image">
+                <div class="container-image__div">
+                  <img class="container-image__div__img" src="./images/icon-music.svg" alt="" role="presentation">
+                </div>
+              </div>
+              <div class="flex-center-column container-text">
+                <strong class="container-text__strong">Annual Plan</strong>
+                <p class="container-text__p">$59.99/year</p>
+              </div>
+            </div>
+            <div class="flex-center container-change">
+              <a class="container-change__a" href="#">Change</a>
+            </div>
+          </div>
+        </div>
+        <div class="flex-center-column order-election"> <!--Button section-->
+          <a class="flex-center order-election__a" href="#">Proceed to Payment</a>
+          <a class="flex-center order-election__a" href="#">Cancel Order</a>
+        </div>
+      </div>
+  </main>
+  <footer class="footer-page">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Hernan Alex Choque Condori</a>.
+    </div>
+  </footer>
+  </div>
+</body>
+</html>
