@@ -25,22 +25,12 @@
 }
 /*CSS - Modifying the page viewport*/
 body{
-    background-image: url("./images/Sbackground.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-}
-/*CSS - Component background container*/
-.container{
-    /*Reusable class - flex-center-column*/
-    background-image: url("./images/pattern-background-desktop.svg");
     background-color: hsl(225, 100%, 94%);
-    max-width: 1140px;
-    min-width: 350px;
-    padding: 10px 0;
-    margin: 10px auto;
-    border-radius: 10px;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    width: 100vw;
 }
 /*CSS - Container component*/
 .order-summary{
@@ -52,6 +42,7 @@ body{
     min-width: 350px;
     height: var(--container-height);
     border-radius: 10px;
+    margin: auto;
 }
 /*CSS - Presentation image section*/
 .order-image{
